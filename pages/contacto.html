@@ -6,70 +6,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
+    <!-- Google fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME-->
+
+    <script src="https://kit.fontawesome.com/97155868f1.js" crossorigin="anonymous"></script>
+
 </head>
 
-<body class="bodyContacto">
+<body class="fondoContacto">
+
     <header>
-        <nav class="textoMenu">
-            <ul class="paraAlinear">
-                <li class="cambiaAblanco"><a class="letrasMenu" href="../index.html">INICIO</a></li>
-                <li class="cambiaAblanco"><a class="letrasMenu" href="../pages/recetas.html">RECETAS</a></li>
-                <li class="cambiaAblanco"><a class="letrasMenu" href="../pages/bio.html">BIO</a></li>
-                <li class="cambiaAblanco"><a class="letrasMenu" href="../pages/tienda.html">TIENDA</a></li>
-            </ul>
+        <nav class="navbar navbar-dark bg-dark navbar navbar-expand-lg bg-light fuenteMenu">
+            <div class="container">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./recetas.html">RECETAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./bio.html">BIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./tienda.html">TIENDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-warning" href="./contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <main class="mainContacto">
-        <form action="">
-            <p class="subsContacto"> Nombre</p>
-            <input type="text">
-            <p class="subsContacto">E-mail</p>
-            <input type="email">
-            <p class="subsContacto">Dejá tu mensaje</p>
-            <textarea name="" id="" cols="110" rows="20"></textarea>
+
+    <main>
+
+        <div class="container mb-3 mt-5">
+
+            <div class="container mb-5">
+                <label for="exampleFormControlTextarea1" class="form-label fuenteAjuanapie">Dejanos tu
+                    comentario</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+            </div>
             <div>
-            <input type="submit" value="ENVIAR">
+                <label for="exampleFormControlInput1" class="form-label fuenteAjuanapie">Nombre</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre">
             </div>
-        </form>
+            <div>
+                <label for="exampleFormControlInput1" class="form-label fuenteAjuanapie mt-3">Correo electrónico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+            </div>
+        </div>
+
+        <div class="container">
+            <button type="submit" class="btn btn-primary mb-5">Enviar</button>
+        </div>
+        </div>
     </main>
-    <br>
-    <footer>
-        <section>
-            <div class="seguinos">
-                <p>Seguinos en:</p>
-            </div>
 
-            <article class="logos-flex">
-
-                <div class="logoFace">
-                    <a href="https://www.facebook.com/"><img src="../multimedia/f_logo_RGB-Blue_72.png"
-                            alt="Logo Facebook" />
-                    </a>
+    <footer class="bg-dark text-white pt-3 pb-4 footerAbajo">
+        <div class="container text-md-left">
+            <div class="row text-md-left">
+                <div class="col-md-3 col-lg-5 col-xl-4 mt-3 mx-auto">
+                    <h5 class="mb-4 text-warning fuenteAjuanapie"> Abuela Juana</h5>
+                    <p class="fuentePie"> Este sitio forma parte de un proyecto familiar que pretende rescatar, desde la
+                        singularidad, las tradiciones culinarias de los inmigrantes gallegos que a principios del siglo
+                        XX poblaron ambas márgenes del Río de la Plata. </p>
                 </div>
-                <div class="logoInsta">
-                    <a href="https://www.instagram.com/"><img src="../multimedia/Instagram_RGB.png" />
-                    </a>
-                </div>
-                <div class="logoYoutube">
-                    <a href="https://www.youtube.com/">
-                        <img src="../multimedia/yt_icon_rgb.png" />
-                    </a>
-                </div>
-            </article>
-            <article>
-                <div class="subTicont">
-                    <a href="contacto.html">Contactanos</a>
-                </div>
-
-                <div class="letraChica">
-                    <p>® Diego Tocco, 2022. <br />
-                        Reservados todos los derechos.
+                <div class="col-md-4 col-lg-2 col-xl-3 mx-auto mt-3">
+                    <h5 class="mb-4 fuenteAjuanapie text-secondary"> Contactanos</h5>
+                    <p class="fuentePie">
+                        <i class="fa-solid fa-house text-secondary"></i> Joaquín Requena 1066
                     </p>
+                    <p class="fuentePie"> 11200 Montevideo, Uruguay</p>
+                    <p class="fuentePie">
+                        <i class="fa-solid fa-envelope text-secondary"></i> abuelajuana@gmail.com
+                    </p>
+                    <p class="fuentePie">
+                        <i class="fa-solid fa-phone text-secondary"></i> +(5982) 410985
+                    </p>
+
                 </div>
-            </article>
-        </section>
+                <div class="col-1 col-md-1 col-lg-3 col-xl-3">
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline mt-3">
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating-sm text-secondary" style="font-size:1.5rem"><i
+                                        class="fa-brands fa-facebook"></i> </a>
+                            </li>
+                            <li class="list-inline-item pt-2">
+                                <a href="#" class="btn-floating-sm text-secondary" style="font-size:1.5rem"><i
+                                        class="fa-brands fa-instagram"></i> </a>
+                            </li>
+                            <li class="list-inline-item pt-2">
+                                <a href="#" class="btn-floating-sm text-secondary" style="font-size:1.5rem"><i
+                                        class="fa-brands fa-youtube"></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-lg-11 col-xl-11 mx-auto fuentePie text-secondary">
+                        <p>Derechos reservados ®2022, Diego Tocco</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

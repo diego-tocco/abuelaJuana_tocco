@@ -7,100 +7,160 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="multimedia/abuelajuana.ico" type="abuelajuana.ico">
     <title>Abuela Juana</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- MIS ESTILOS-->
     <link rel="stylesheet" href="css/estilos.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+
+    <!-- Google fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME-->
+
+    <script src="https://kit.fontawesome.com/97155868f1.js" crossorigin="anonymous"></script>
+
 </head>
 
-<body class="bodyIndex bodyGrid">
-
-    <header class="menuGrid">
-        <nav class="textoMenu">
-            <ul class="paraAlinear">
-                <li class="cambiaAblanco"><a class="letrasMenu" href="index.html">INICIO</a></li>
-                <li class="cambiaAblanco"><a class="letrasMenu" href="pages/recetas.html">RECETAS</a></li>
-                <li class="cambiaAblanco"><a class="letrasMenu" href="pages/bio.html">BIO</a></li>
-                <li class="cambiaAblanco"><a class="letrasMenu" href="pages/tienda.html">TIENDA</a></li>
-            </ul>
+<body class="fondoIndex">
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar navbar-expand-lg bg-light fuenteMenu">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-warning" aria-current="page" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/recetas.html">RECETAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/bio.html">BIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/tienda.html">TIENDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-        <div class="logoAbuela-flex logoGrid">
-            <img src="multimedia/logoabuelajuanablanco.png" alt="Logo Abuela Juana" class="animate__animated animate__swing">
-        </div>
-    <main class="fondoAnimado mainIndex poemaGrid">
-        <div class="textoPoema">
+
+    <div class="container text-center pb-5 mt-5">
+        <img src="multimedia/logoabuelajuanablanco.png" alt="Logo Abuela Juana" class="logoAbuela">
+    </div>
+
+    <main class="container-fluid pt-3 backMain">
+        <div class="text-center fuentePoema">
             <p>Canta, meniña,<br>
                 na beira da fonte;<br>
                 canta, daréiche<br>
                 boliños do pote</p>
         </div>
-        <div class="textoPoema2">
+        <div class="text-center fuentePoema">
             <p>Canta, meniña,<br>
                 con brando compás;<br>
                 deréiche unha proia<br>
                 da pedra do lar.</p>
         </div>
-        <div class="textoPoema2">
+        <div class="text-center fuentePoema">
             <p>Papiñas con leite<br>
                 tamén che daréi;<br>
                 sopiñas con viño,<br>
                 torrexas con mel.</p>
         </div>
-        <div class="textoPoema2">
+        <div class="text-center fuentePoema">
             <p>Patacas asadas<br>
                 con sal e vinagre,<br>
                 que saben a noces.<br>
                 ¡Qué ricas que saben!</p>
         </div>
-        <div class="textoPoema2">
+        <div class="text-center fuentePoema">
             <p>¡Qué feira, rapaza,<br>
                 si cantas faremos...!<br>
                 Festiña por fora,<br>
                 festiña por dentro.</p>
         </div>
-        <div class="piePoema">
+        <div class="text-center fuentePiepoema pb-3 mb-5">
             <p>Rosalía de Castro - Fragmento del poema "I"</p>
         </div>
     </main>
 
-    <footer class="pieGrid">
-        <section>
-            <div class="seguinos">
-                <p>Seguinos en:</p>
+    <footer class="bg-dark text-white pt-3 pb-4">
+        <div class="container text-md-left">
+            <div class="row text-md-left">
+                <div class="col-md-3 col-lg-5 col-xl-4 mt-3 mx-auto">
+                    <h5 class="mb-4 text-warning fuenteAjuanapie"> Abuela Juana</h5>
+                    <p class="fuentePie"> Este sitio forma parte de un proyecto familiar que pretende rescatar, desde la
+                        singularidad, las tradiciones culinarias de los inmigrantes gallegos que a principios del siglo
+                        XX poblaron ambas márgenes del Río de la Plata. </p>
+                </div>
+                <div class="col-md-4 col-lg-2 col-xl-3 mx-auto mt-3">
+                    <h5 class="mb-4 fuenteAjuanapie text-secondary"> Contactanos</h5>
+                    <p class="fuentePie">
+                        <i class="fa-solid fa-house text-secondary"></i> Joaquín Requena 1066
+                    </p>
+                    <p class="fuentePie"> 11200 Montevideo, Uruguay</p>
+                    <p class="fuentePie">
+                        <i class="fa-solid fa-envelope text-secondary"></i> abuelajuana@gmail.com
+                    </p>
+                    <p class="fuentePie">
+                        <i class="fa-solid fa-phone text-secondary"></i> +(5982) 410985
+                    </p>
+
+                </div>
+                <div class="col-1 col-md-1 col-lg-3 col-xl-3">
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline mt-3">
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating-sm text-secondary" style="font-size:1.5rem"><i
+                                        class="fa-brands fa-facebook"></i> </a>
+                            </li>
+                            <li class="list-inline-item pt-2">
+                                <a href="#" class="btn-floating-sm text-secondary" style="font-size:1.5rem"><i
+                                        class="fa-brands fa-instagram"></i> </a>
+                            </li>
+                            <li class="list-inline-item pt-2">
+                                <a href="#" class="btn-floating-sm text-secondary" style="font-size:1.5rem"><i
+                                        class="fa-brands fa-youtube"></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-lg-11 col-xl-11 mx-auto fuentePie text-secondary">
+                        <p>Derechos reservados ®2022, Diego Tocco</p>
+                    </div>
+                </div>
             </div>
 
-            <article class="logos-flex">
 
-                <div class="logoFace">
-                    <a href="https://www.facebook.com/"><img src="multimedia/f_logo_RGB-Blue_72.png"
-                            alt="Logo Facebook" />
-                    </a>
-                </div>
-                <div class="logoInsta">
-                    <a href="https://www.instagram.com/"><img src="multimedia/Instagram_RGB.png" />
-                    </a>
-                </div>
-                <div class="logoYoutube">
-                    <a href="https://www.youtube.com/">
-                        <img src="multimedia/yt_icon_rgb.png" />
-                    </a>
-                </div>
-            </article>
-            <article>
-                <div class="subTicont">
-                    <a href="pages/contacto.html">Contactanos</a>
-                </div>
 
-                <div class="letraChica">
-                    <p>® Diego Tocco, 2022. <br />
-                        Reservados todos los derechos.
-                    </p>
-                </div>
-            </article>
-        </section>
+
+
+        </div>
+
+
+        </div>
+
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
