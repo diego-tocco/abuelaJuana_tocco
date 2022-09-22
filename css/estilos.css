@@ -56,23 +56,22 @@ html {
 
 
 header {
-    background:linear-gradient(to bottom, black, rgb(45, 45, 45));
+    background: linear-gradient(to bottom, black, rgb(45, 45, 45));
     background-size: cover;
-    height: 6rem;
+    height: 5rem;
 }
 
 header a {
     text-decoration: none;
-    color: rgb(209, 158, 28);
+    color: rgb(182, 182, 182);
 }
 
 .textoMenu ul li {
-    font-size: 1rem;
-    font-family: Trasandina bold, sans-serif;
-    padding-bottom: 0.5rem;
-    padding-top: 4rem;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    font-size: 1.1rem;
+    font-family: Trasandina, sans-serif;
+    padding-top: 3rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
     display: inline-block;
 }
 
@@ -140,7 +139,6 @@ header a {
     padding-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .textoPoema {
@@ -171,28 +169,34 @@ header a {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .subTicont {
     padding-left: 3rem;
-    padding-top: 1.5rem;
-    font-size: 1rem;
-    font-family: Trasandina bold, sans-serif;
+    padding-top: 5rem;
+    font-size: 0.9rem;
+    font-family: Trasandina, sans-serif;
 }
 
-.logoYoutube img {
-    width: 2.6rem;
+.logoYoutube i {
+    color: rgb(186, 186, 186);
+    font-size: 1.5rem;
+    padding-top: 2rem;
     padding-left: 2rem;
 }
 
-.logoFace img {
-    width: 2.2rem;
-    padding-left: 3rem;
+.logoFace i {
+    color: rgb(186, 186, 186);
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
 }
 
-.logoInsta img {
-    width: 2rem;
+.logoInsta i {
+    color: rgb(186, 186, 186);
+    font-size: 1.5rem;
+    padding-top: 2rem;
     padding-left: 2rem;
 }
 
@@ -202,39 +206,51 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: rgb(209, 92, 20);
+    color: rgb(237, 220, 31);
 }
 
-.seguinos {
+.parrafoDireccion {
     font-family: Trasandina, sans-serif;
-    padding-left: 3rem;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-top: 2rem;
-    padding-bottom: 1rem;
-    color: rgb(247, 199, 8);
+    color: rgb(255, 255, 255);
 }
 
 .letraChica {
-    color: white;
+    color: rgb(138, 138, 138);
     font-family: Trasandina, sans-serif;
-    font-size: .7rem;
-    text-decoration: none;
+    font-size: .8rem;
     text-align: right;
-    padding-top: 1rem;
     padding-right: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 .logos-flex {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+}
+
+.flexChico {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding-right: 3rem;
+}
+
+.logoAlpie {
+    width: 10rem;
+    padding-top: 2rem;
 }
 
 /* RECETAS */
 
 .tituloHuno {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: Trasandina bold, sans-serif;
     font-size: 3rem;
     padding-top: 2rem;
@@ -243,8 +259,9 @@ footer a {
 }
 
 .bodyRecetas {
-    background:linear-gradient(to left, rgb(16, 92, 133), rgb(64, 140, 177));
-    background-size: cover;
+    background-image: url(../multimedia/puertoribeirareti.png);
+    /* background: linear-gradient(to left, rgb(16, 92, 133), rgb(64, 140, 177));*/
+    background-size: contain;
 }
 
 .menuComidas li a {
@@ -252,28 +269,35 @@ footer a {
     font-size: 1.7rem;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    padding-left: 3rem;
 }
 
 .cambioColor :hover {
-    color: rgb(255, 200, 0);
+    color: rgb(255, 255, 255);
     transition: 0.5s;
+}
+
+.borrarPuntito {
+    list-style-type: none;
+}
+
+.comidasCentradas {
+    text-align: center;
 }
 
 .irArriba {
     font-family: Trasandina bold, sans-serif;
     font-size: 0.9rem;
-    color: white;
+    color: rgb(208, 208, 207);
     margin-top: 3rem;
     padding-left: 3rem;
     text-decoration: none;
-
 }
 
 .mainRecetas {
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(64, 140, 177, 0.6);
     background-size: cover;
     margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .textoIngredientes {
@@ -397,11 +421,11 @@ footer a {
 
 .bodyBio {
     background-image: url(../multimedia/ptoribeiraaerea.png);
-    background-size: cover;
+    background-size: contain;
 }
 
 .mainBiofondo {
-    background-color: rgba(251, 164, 3, 0.7);
+    background-color: rgba(251, 164, 3, 0.5);
     background-size: cover;
 }
 
@@ -453,7 +477,7 @@ footer a {
 
 .fotoRibeira {
     width: 25rem;
-    padding-left: 3rem;
+    padding-left: 1rem;
     padding-top: 2rem;
 }
 
@@ -478,7 +502,6 @@ footer a {
 .section02-flex {
     display: flex;
     flex-flow: row-reverse nowrap;
-
 }
 
 .section03-flex {
@@ -488,22 +511,21 @@ footer a {
 
 .article01-flex h3 p {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
 }
-
 
 
 /* TIENDA */
 
 .bodyTienda {
     background-image: url(../multimedia/ribeiranaranja.png);
-    background-size: cover;
+    background-size: contain;
 }
 
 .bodyTienda-grid {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 0.1fr 1fr 2fr 0.1fr;
+    grid-template-rows: 0.1fr 0.5fr 2fr 0.1fr;
     grid-template-areas:
         "menu menu menu"
         ".titutienda."
@@ -535,7 +557,8 @@ footer a {
 
 .mainTienda {
     background-color: rgba(228, 97, 9, 0.6);
-    background-size: cover;
+    margin-bottom: 3rem;
+    padding-bottom: 0rem;
     grid-area: texto;
 }
 
@@ -582,7 +605,6 @@ footer a {
     justify-content: center;
 }
 
-
 /* CONTACTO*/
 
 .bodyContacto {
@@ -593,11 +615,14 @@ footer a {
 .mainContacto {
     background-color: rgba(116, 116, 116, 0.5);
     background-size: cover;
-    padding-bottom: 7rem;
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .subsContacto {
     font-family: Trasandina bold, sans-serif;
+    font-size: 1.3rem;
     color: white;
     padding-left: 2rem;
     padding-top: 2rem;
@@ -608,8 +633,13 @@ input {
 }
 
 textarea {
-    margin-left: 2rem;
-    margin-bottom: 1rem;
+margin-left:2rem;
+}
+
+.pieAbajo {
+    width: 100%;
+    bottom: 0;
+    position: initial;
 }
 
 /* Baja a TABLET */
@@ -644,7 +674,6 @@ textarea {
 
     .section02-flex {
         flex-flow: row-reverse wrap;
-
     }
 
     .section03-flex {
@@ -661,16 +690,48 @@ textarea {
         flex-flow: row wrap;
     }
 
+    .fotoRibeira {
+        width: 20rem;
+    }
+    
+    .fotoGuarani {
+        width: 20rem;
+    }
+    
     .fotoAbuelos {
-        padding-bottom: 1rem;
-
+        width: 20rem;
     }
 
     .subsBio {
         font-size: 1.3rem;
         padding-bottom: 0.3rem;
     }
+
+    .logoAbuela-flex img {
+        width: 23rem;
+        padding-top: 2.3rem;
+    }
+
+    .letraChica {
+        font-size: .6rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-right: 0rem;
+    }
+
+    .subTicont {
+        text-align: center;
+        padding-top: 3rem;
+        padding-left: 0rem;
+        font-size: 0.9rem;
+    }
+
+    .parrafoDireccion {
+        font-size: 0.7rem;
+        padding-left: 0rem;
+    }
 }
+
 
 /* Baja a CELU */
 
@@ -687,38 +748,70 @@ textarea {
 
     .textoMenu ul li {
         display: block;
-        padding-bottom: 0.5rem;
-        padding-top: 1rem;
+        padding-top: 0.9rem;
     }
 
     .logoAbuela-flex img {
-        display: flex;
-        flex-flow: row wrap;
-        align-self: center;
         width: 16rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .logoFace img {
-        padding-left: 0;
+        padding-top: 1.5rem;
+        padding-bottom: 0.7rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
 
     header {
-        height: 11rem;
+        height: 10rem;
         background-color: rgba(0, 0, 0, 0.4);
     }
 
     .letraChica {
         text-align: center;
-        padding-top: 2rem;
-        padding-right: 0;
     }
 
     .introTienda {
         font-size: 1.3rem;
         color: rgb(255, 255, 255);
+    }
+
+    .logos-flex {
+        justify-content: center;
+        padding-left: 1rem;
+    }
+
+    .letraChica {
+        font-size: .6rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-right: 0rem;
+    }
+
+    .subTicont {
+        text-align: center;
+        padding-top: 3rem;
+        padding-left: 0rem;
+        font-size: 0.9rem;
+    }
+
+    .parrafoDireccion {
+        font-size: 0.7rem;
+        padding-left: 2rem;
+    }
+    .fotoRibeira {
+        width: 16rem;
+        align-items: center;
+        padding-right: 1rem;
+    }
+    
+    .fotoGuarani {
+        width: 16rem;
+        align-items: center;
+        padding-right: 2rem;
+    }
+    
+    .fotoAbuelos {
+        width: 16rem;
+        align-items: center;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
     }
 }
