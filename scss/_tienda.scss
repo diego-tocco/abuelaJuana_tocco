@@ -1,0 +1,94 @@
+/* TIENDA */
+
+.bodyTienda {
+    background-image: url(../multimedia/ribeiranaranja.png);
+    background-size: contain;
+}
+
+.bodyTienda-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 0.1fr 0.5fr 2fr 0.1fr;
+    grid-template-areas:
+        "menu menu menu"
+        ".titutienda."
+        "texto texto texto"
+        "pieTienda pieTienda pieTienda";
+}
+
+.menuTienda {
+    grid-area: menu;
+}
+
+.tituloTienda-grid {
+    grid-area: titutienda;
+}
+
+.pieTienda-grid {
+    grid-area: pieTienda;
+}
+
+.tituloTienda {
+    font-family: Trasandina bold, sans-serif;
+    color: white;
+    font-size: 3rem;
+    padding-left: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.mainTienda {
+    background-color: rgba(228, 97, 9, 0.6);
+    margin-bottom: 3rem;
+    padding-bottom: 0rem;
+    grid-area: texto;
+}
+
+.introTienda {
+    font-family: Trasandina bold, sans-serif;
+    font-size: 2rem;
+    color: rgb(255, 213, 0);
+    text-align: center;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.textosListas li a {
+    li {
+        a {
+            font-family: Trasandina bold, sans-serif;
+            font-size: 1.3rem;
+            color: black;
+            list-style-type: none;
+            text-decoration: none;
+        }
+    }
+
+}
+
+.centradoListas {
+    text-align: center;
+}
+
+.tituTienda1 {
+    font-family: Trasandina bold, sans-serif;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    padding-top: 2rem;
+    margin: auto;
+}
+
+.tituTienda {
+    font-family: Trasandina bold, sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 2rem;
+    text-align: center;
+    margin: auto;
+}
+
+.mainTflex {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}

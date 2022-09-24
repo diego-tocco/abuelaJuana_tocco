@@ -1,0 +1,101 @@
+/* BIO */
+
+
+.bodyBio {
+    background-image: url(../multimedia/ptoribeiraaerea.png);
+    background-size: contain;
+}
+
+.mainBiofondo {
+    background-color: rgba(251, 164, 3, 0.5);
+    background-size: cover;
+}
+
+.tituloBio {
+    font-family: Trasandina bold, sans-serif;
+    color: white;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.textoBio {
+    font-family: Trasandina, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.textoBiofinal {
+    font-family: Trasandina, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    padding-right: 3rem;
+}
+
+.subsBio {
+    color: rgb(0, 0, 0);
+    font-family: Trasandina bold, sans-serif;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.textoArriba {
+    color: white;
+    font-family: Trasandina bold;
+    text-decoration: none;
+    padding-left: 3rem;
+}
+
+.alineadora {
+    padding-bottom: 2rem;
+}
+
+.fotoRibeira {
+    width: 25rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+.fotoGuarani {
+    width: 25rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+
+.fotoAbuelos {
+    width: 25rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.section01-flex {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.section02-flex {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+
+.section03-flex {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.article01-flex {
+    h3 {
+        p {
+            display: flex;
+            flex-flow: row nowrap;
+        }
+    }
+}

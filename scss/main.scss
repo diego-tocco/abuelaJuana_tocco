@@ -1,0 +1,31 @@
+@import "variables";
+@import "index";
+@import "recetas";
+@import "bio";
+@import "tienda";
+@import "contacto";
+@import "mediaqueries";
+
+html {
+    font-size: 62, 5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Trasandina";
+    src: url(../fonts/TrasandinaRegular.otf);
+}
+
+@font-face {
+    font-family: "Trasandina bold";
+    src: url(../fonts/TrasandinaBold.otf);
+}
+
+
+
+
+

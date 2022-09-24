@@ -1,0 +1,36 @@
+/* CONTACTO*/
+
+.bodyContacto {
+    background-image: url(../multimedia/puertoribeirareti.png);
+    background-size: cover;
+}
+
+.mainContacto {
+    background-color: rgba(116, 116, 116, 0.5);
+    background-size: cover;
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.subsContacto {
+    font-family: Trasandina bold, sans-serif;
+    font-size: 1.3rem;
+    color: white;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+input {
+    margin-left: 2rem;
+}
+
+textarea {
+    margin-left: 2rem;
+}
+
+.pieAbajo {
+    width: 100%;
+    bottom: 0;
+    position: initial;
+}

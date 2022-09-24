@@ -1,0 +1,239 @@
+.bodyGrid {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 0.1fr 0.5fr 2fr 0.1fr;
+    grid-template-areas:
+        "menu menu menu"
+        ".logo."
+        "poema poema poema"
+        "pie pie pie";
+}
+
+.menuGrid {
+    grid-area: menu;
+}
+
+.fondo {
+    grid-area: fondo;
+}
+
+.logoGrid {
+    grid-area: logo;
+}
+
+.poemaGrid {
+    grid-area: poema;
+}
+
+.pieGrid {
+    grid-area: pie;
+}
+
+.bodyIndex {
+    /*background-color:rgb(64, 140, 177);*/
+    background-image: url(../multimedia/ptoribeirareticolor.png);
+    background-size: cover;
+}
+
+
+header {
+    background: linear-gradient(to bottom, black, rgb(45, 45, 45));
+    background-size: cover;
+    height: 5rem;
+
+    a {
+        text-decoration: none;
+        color: rgb(182, 182, 182);
+    }
+}
+
+.textoMenu {
+    ul {
+        li {
+            font-size: 1.1rem;
+            font-family: Trasandina, sans-serif;
+            padding-top: 3rem;
+            margin-left: 0.4rem;
+            margin-right: 0.4rem;
+            display: inline-block;
+        }
+    }
+}
+
+.cambiaAblanco {
+    :hover {
+        color: white;
+        transition: 0.5s;
+    }
+}
+
+.paraAlinear {
+    text-align: center;
+    text-decoration: none;
+}
+
+.mainIndex {
+    background-color: rgba(64, 140, 177, 0.5);
+    background-size: cover;
+}
+
+@keyframes mainOpaco {
+    0% {
+        opacity: 100%;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        opacity: 75%;
+        transform: rotate(-0.7deg);
+    }
+
+    50% {
+        opacity: 50%;
+        transform: rotate(0deg);
+    }
+
+    75% {
+        opacity: 75%;
+        transform: rotate(0.7deg);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: rotate(0deg);
+    }
+}
+
+
+.fondoAnimado {
+    animation-name: mainOpaco;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.logoAbuela-flex {
+    img {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 27rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.textoPoema {
+    font-family: Trasandina bold, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.textoPoema2 {
+    font-family: Trasandina bold, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.piePoema {
+    font-family: Trasandina, sans-serif;
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.menuTop {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+
+    a {
+        text-decoration: none;
+        color: rgb(248, 188, 22);
+    }
+}
+
+.subTicont {
+    padding-left: 3rem;
+    padding-top: 5rem;
+    font-size: 0.9rem;
+    font-family: Trasandina, sans-serif;
+}
+
+.logoYoutube {
+    i {
+        font-size: 1.5rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        color: $colorRedes;
+    }
+}
+
+.logoFace {
+    i {
+        font-size: 1.5rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        color: $colorRedes;
+    }
+}
+
+.logoInsta {
+    i {
+        font-size: 1.5rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        color: $colorRedes;
+    }
+}
+
+.ordenLogos {
+    div {
+        display: inline-block;
+    }
+}
+
+.parrafoDireccion {
+    font-family: Trasandina, sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.letraChica {
+    color: $colorRedes;
+    font-family: Trasandina, sans-serif;
+    font-size: .8rem;
+    text-align: right;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+}
+
+.logos-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-left: 3rem;
+}
+
+.flexChico {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding-right: 3rem;
+}
+
+.logoAlpie {
+    width: 10rem;
+    padding-top: 2rem;
+}

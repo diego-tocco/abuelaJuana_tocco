@@ -1,0 +1,173 @@
+/* RECETAS */
+
+.tituloHuno {
+    color: rgb(0, 0, 0);
+    font-family: Trasandina bold, sans-serif;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.bodyRecetas {
+    background-image: url(../multimedia/puertoribeirareti.png);
+    /* background: linear-gradient(to left, rgb(16, 92, 133), rgb(64, 140, 177));*/
+    background-size: contain;
+}
+
+.menuComidas {
+    li {
+        a {
+            font-family: Trasandina bold, sans-serif;
+            font-size: 1.7rem;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+    }
+}
+
+.cambioColor {
+    :hover {
+        color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
+}
+
+.borrarPuntito {
+    list-style-type: none;
+}
+
+.comidasCentradas {
+    text-align: center;
+}
+
+.irArriba {
+    font-family: Trasandina bold, sans-serif;
+    font-size: 0.9rem;
+    color: rgb(208, 208, 207);
+    margin-top: 3rem;
+    padding-left: 3rem;
+    text-decoration: none;
+}
+
+.mainRecetas {
+    background-color: rgba(64, 140, 177, 0.6);
+    background-size: cover;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.textoIngredientes {
+    font-family: Trasandina bold, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+
+.tituloRecetas {
+    font-family: Trasandina bold, sans-serif;
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.textoRecetas {
+    font-family: Trasandina, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.tituloSeccion {
+    font-family: Trasandina bold, sans-serif;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+.tituIngrediente {
+    font-family: Trasandina bold, sans sans-serif;
+    font-size: 1rem;
+    color: gold;
+    padding-left: 3rem;
+    padding-bottom: 0.6rem;
+    padding-top: 1rem;
+}
+
+.calamaresFoto {
+    width: $fotosRecetas;
+    padding-left: 2rem;
+    padding-top: 3rem;
+}
+
+.empanadagFoto {
+    width: $fotosRecetas;
+    padding-left: 2.5rem;
+    padding-top: 3rem;
+}
+
+.rinionesFoto {
+    width: $fotosRecetas;
+    padding-left: 2.5rem;
+    padding-top: 3rem;
+}
+
+.albondigasFoto {
+    width: $fotosRecetas;
+    padding-left: 2.7rem;
+    padding-top: 3rem;
+}
+
+.manzanaFoto {
+    width: $fotosRecetas;
+    padding-left: 2.7rem;
+    padding-top: 3rem;
+}
+
+.marmoladaFoto {
+    width: $fotosRecetas;
+    padding-left: 2.6rem;
+    padding-top: 3rem;
+}
+
+.suspirosFoto {
+    width: $fotosRecetas;
+    padding-left: 2.7rem;
+    padding-top: 3rem;
+}
+
+.chajaFoto {
+    width: $fotosRecetas;
+    padding-left: 2.7rem;
+    padding-top: 3rem;
+}
+
+.sangriaFoto {
+    width: $fotosRecetas;
+    padding-left: 2.7rem;
+    padding-top: 3rem;
+}
+
+.grappaFoto {
+    width: $fotosRecetas;
+    padding-top: 2.5rem;
+    padding-left: 2.6rem;
+}
+
+.aguaFoto {
+    width: $fotosRecetas;
+    padding-left: 2.7rem;
+    padding-top: 3rem;
+}
+
+.licuadoFoto {
+    width: $fotosRecetas;
+    padding-top: 3rem;
+    padding-left: 2.7rem;
+}

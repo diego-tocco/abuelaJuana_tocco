@@ -1,0 +1,618 @@
+.bodyGrid {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 0.1fr 0.5fr 2fr 0.1fr;
+  grid-template-areas: "menu menu menu" ".logo." "poema poema poema" "pie pie pie"; }
+
+.menuGrid {
+  grid-area: menu; }
+
+.fondo {
+  grid-area: fondo; }
+
+.logoGrid {
+  grid-area: logo; }
+
+.poemaGrid {
+  grid-area: poema; }
+
+.pieGrid {
+  grid-area: pie; }
+
+.bodyIndex {
+  /*background-color:rgb(64, 140, 177);*/
+  background-image: url(../multimedia/ptoribeirareticolor.png);
+  background-size: cover; }
+
+header {
+  background: linear-gradient(to bottom, black, #2d2d2d);
+  background-size: cover;
+  height: 5rem; }
+  header a {
+    text-decoration: none;
+    color: #b6b6b6; }
+
+.textoMenu ul li {
+  font-size: 1.1rem;
+  font-family: Trasandina, sans-serif;
+  padding-top: 3rem;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  display: inline-block; }
+
+.cambiaAblanco :hover {
+  color: white;
+  transition: 0.5s; }
+
+.paraAlinear {
+  text-align: center;
+  text-decoration: none; }
+
+.mainIndex {
+  background-color: rgba(64, 140, 177, 0.5);
+  background-size: cover; }
+
+@keyframes mainOpaco {
+  0% {
+    opacity: 100%;
+    transform: rotate(0deg); }
+  25% {
+    opacity: 75%;
+    transform: rotate(-0.7deg); }
+  50% {
+    opacity: 50%;
+    transform: rotate(0deg); }
+  75% {
+    opacity: 75%;
+    transform: rotate(0.7deg); }
+  100% {
+    opacity: 100%;
+    transform: rotate(0deg); } }
+
+.fondoAnimado {
+  animation-name: mainOpaco;
+  animation-duration: 11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+
+.logoAbuela-flex img {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 27rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto; }
+
+.textoPoema {
+  font-family: Trasandina bold, sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem; }
+
+.textoPoema2 {
+  font-family: Trasandina bold, sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-bottom: 1rem; }
+
+.piePoema {
+  font-family: Trasandina, sans-serif;
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+  padding-bottom: 2rem; }
+
+.menuTop {
+  text-decoration: none; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7); }
+  footer a {
+    text-decoration: none;
+    color: #f8bc16; }
+
+.subTicont {
+  padding-left: 3rem;
+  padding-top: 5rem;
+  font-size: 0.9rem;
+  font-family: Trasandina, sans-serif; }
+
+.logoYoutube i {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  color: #b5b5b5; }
+
+.logoFace i {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  color: #b5b5b5; }
+
+.logoInsta i {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  color: #b5b5b5; }
+
+.ordenLogos div {
+  display: inline-block; }
+
+.parrafoDireccion {
+  font-family: Trasandina, sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  color: white; }
+
+.letraChica {
+  color: #b5b5b5;
+  font-family: Trasandina, sans-serif;
+  font-size: .8rem;
+  text-align: right;
+  padding-right: 3rem;
+  padding-bottom: 3rem; }
+
+.logos-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-left: 3rem; }
+
+.flexChico {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  padding-right: 3rem; }
+
+.logoAlpie {
+  width: 10rem;
+  padding-top: 2rem; }
+
+/* RECETAS */
+.tituloHuno {
+  color: black;
+  font-family: Trasandina bold, sans-serif;
+  font-size: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center; }
+
+.bodyRecetas {
+  background-image: url(../multimedia/puertoribeirareti.png);
+  /* background: linear-gradient(to left, rgb(16, 92, 133), rgb(64, 140, 177));*/
+  background-size: contain; }
+
+.menuComidas li a {
+  font-family: Trasandina bold, sans-serif;
+  font-size: 1.7rem;
+  color: black;
+  text-decoration: none; }
+
+.cambioColor :hover {
+  color: white;
+  transition: 0.5s; }
+
+.borrarPuntito {
+  list-style-type: none; }
+
+.comidasCentradas {
+  text-align: center; }
+
+.irArriba {
+  font-family: Trasandina bold, sans-serif;
+  font-size: 0.9rem;
+  color: #d0d0cf;
+  margin-top: 3rem;
+  padding-left: 3rem;
+  text-decoration: none; }
+
+.mainRecetas {
+  background-color: rgba(64, 140, 177, 0.6);
+  background-size: cover;
+  margin-top: 2rem;
+  margin-bottom: 3rem; }
+
+.textoIngredientes {
+  font-family: Trasandina bold, sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  padding-left: 3rem;
+  padding-right: 2rem; }
+
+.tituloRecetas {
+  font-family: Trasandina bold, sans-serif;
+  font-size: 1.6rem;
+  color: white;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem; }
+
+.textoRecetas {
+  font-family: Trasandina, sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  padding-left: 3rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem; }
+
+.tituloSeccion {
+  font-family: Trasandina bold, sans-serif;
+  font-size: 2.5rem;
+  color: black;
+  padding-left: 3rem;
+  padding-top: 3rem; }
+
+.tituIngrediente {
+  font-family: Trasandina bold, sans sans-serif;
+  font-size: 1rem;
+  color: gold;
+  padding-left: 3rem;
+  padding-bottom: 0.6rem;
+  padding-top: 1rem; }
+
+.calamaresFoto {
+  width: 13rem;
+  padding-left: 2rem;
+  padding-top: 3rem; }
+
+.empanadagFoto {
+  width: 13rem;
+  padding-left: 2.5rem;
+  padding-top: 3rem; }
+
+.rinionesFoto {
+  width: 13rem;
+  padding-left: 2.5rem;
+  padding-top: 3rem; }
+
+.albondigasFoto {
+  width: 13rem;
+  padding-left: 2.7rem;
+  padding-top: 3rem; }
+
+.manzanaFoto {
+  width: 13rem;
+  padding-left: 2.7rem;
+  padding-top: 3rem; }
+
+.marmoladaFoto {
+  width: 13rem;
+  padding-left: 2.6rem;
+  padding-top: 3rem; }
+
+.suspirosFoto {
+  width: 13rem;
+  padding-left: 2.7rem;
+  padding-top: 3rem; }
+
+.chajaFoto {
+  width: 13rem;
+  padding-left: 2.7rem;
+  padding-top: 3rem; }
+
+.sangriaFoto {
+  width: 13rem;
+  padding-left: 2.7rem;
+  padding-top: 3rem; }
+
+.grappaFoto {
+  width: 13rem;
+  padding-top: 2.5rem;
+  padding-left: 2.6rem; }
+
+.aguaFoto {
+  width: 13rem;
+  padding-left: 2.7rem;
+  padding-top: 3rem; }
+
+.licuadoFoto {
+  width: 13rem;
+  padding-top: 3rem;
+  padding-left: 2.7rem; }
+
+/* BIO */
+.bodyBio {
+  background-image: url(../multimedia/ptoribeiraaerea.png);
+  background-size: contain; }
+
+.mainBiofondo {
+  background-color: rgba(251, 164, 3, 0.5);
+  background-size: cover; }
+
+.tituloBio {
+  font-family: Trasandina bold, sans-serif;
+  color: white;
+  font-size: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center; }
+
+.textoBio {
+  font-family: Trasandina, sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  padding-left: 3rem;
+  padding-right: 3rem; }
+
+.textoBiofinal {
+  font-family: Trasandina, sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  padding-right: 3rem; }
+
+.subsBio {
+  color: black;
+  font-family: Trasandina bold, sans-serif;
+  font-size: 1.5rem;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem; }
+
+.textoArriba {
+  color: white;
+  font-family: Trasandina bold;
+  text-decoration: none;
+  padding-left: 3rem; }
+
+.alineadora {
+  padding-bottom: 2rem; }
+
+.fotoRibeira {
+  width: 25rem;
+  padding-left: 1rem;
+  padding-top: 2rem; }
+
+.fotoGuarani {
+  width: 25rem;
+  padding-right: 3rem;
+  padding-top: 2rem; }
+
+.fotoAbuelos {
+  width: 25rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem; }
+
+.section01-flex {
+  display: flex;
+  flex-flow: row nowrap; }
+
+.section02-flex {
+  display: flex;
+  flex-flow: row-reverse nowrap; }
+
+.section03-flex {
+  display: flex;
+  flex-flow: row nowrap; }
+
+.article01-flex h3 p {
+  display: flex;
+  flex-flow: row nowrap; }
+
+/* TIENDA */
+.bodyTienda {
+  background-image: url(../multimedia/ribeiranaranja.png);
+  background-size: contain; }
+
+.bodyTienda-grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 0.1fr 0.5fr 2fr 0.1fr;
+  grid-template-areas: "menu menu menu" ".titutienda." "texto texto texto" "pieTienda pieTienda pieTienda"; }
+
+.menuTienda {
+  grid-area: menu; }
+
+.tituloTienda-grid {
+  grid-area: titutienda; }
+
+.pieTienda-grid {
+  grid-area: pieTienda; }
+
+.tituloTienda {
+  font-family: Trasandina bold, sans-serif;
+  color: white;
+  font-size: 3rem;
+  padding-left: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center; }
+
+.mainTienda {
+  background-color: rgba(228, 97, 9, 0.6);
+  margin-bottom: 3rem;
+  padding-bottom: 0rem;
+  grid-area: texto; }
+
+.introTienda {
+  font-family: Trasandina bold, sans-serif;
+  font-size: 2rem;
+  color: #ffd500;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 2rem; }
+
+.textosListas li a li a {
+  font-family: Trasandina bold, sans-serif;
+  font-size: 1.3rem;
+  color: black;
+  list-style-type: none;
+  text-decoration: none; }
+
+.centradoListas {
+  text-align: center; }
+
+.tituTienda1 {
+  font-family: Trasandina bold, sans-serif;
+  font-size: 1.8rem;
+  color: white;
+  padding-top: 2rem;
+  margin: auto; }
+
+.tituTienda {
+  font-family: Trasandina bold, sans-serif;
+  color: white;
+  padding-top: 2rem;
+  text-align: center;
+  margin: auto; }
+
+.mainTflex {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center; }
+
+/* CONTACTO*/
+.bodyContacto {
+  background-image: url(../multimedia/puertoribeirareti.png);
+  background-size: cover; }
+
+.mainContacto {
+  background-color: rgba(116, 116, 116, 0.5);
+  background-size: cover;
+  padding-bottom: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+.subsContacto {
+  font-family: Trasandina bold, sans-serif;
+  font-size: 1.3rem;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 2rem; }
+
+input {
+  margin-left: 2rem; }
+
+textarea {
+  margin-left: 2rem; }
+
+.pieAbajo {
+  width: 100%;
+  bottom: 0;
+  position: initial; }
+
+/* Baja a TABLET */
+@media screen and (max-width: 768px) {
+  .logos-flex {
+    justify-content: center; }
+  .seguinos {
+    text-align: center;
+    padding-left: 0; }
+  .subTicont {
+    text-align: center;
+    padding-left: 0; }
+  .logoFace img {
+    padding-left: 0; }
+  .introTienda {
+    font-size: 1.5rem; }
+  .section01-flex {
+    flex-flow: row wrap; }
+  .section02-flex {
+    flex-flow: row-reverse wrap; }
+  .section03-flex {
+    flex-flow: row wrap; }
+  .article01-flex h3 p {
+    display: flex;
+    flex-flow: row wrap; }
+  .article02-flex h3 p {
+    display: flex;
+    flex-flow: row wrap; }
+  .fotoRibeira {
+    width: 20rem; }
+  .fotoGuarani {
+    width: 20rem; }
+  .fotoAbuelos {
+    width: 20rem; }
+  .subsBio {
+    font-size: 1.3rem;
+    padding-bottom: 0.3rem; }
+  .logoAbuela-flex img {
+    width: 23rem;
+    padding-top: 2.3rem; }
+  .letraChica {
+    font-size: .6rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-right: 0rem; }
+  .subTicont {
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 0rem;
+    font-size: 0.9rem; }
+  .parrafoDireccion {
+    font-size: 0.7rem;
+    padding-left: 0rem; } }
+
+/* Baja a CELU */
+@media screen and (max-width: 380px) {
+  .bodyGrid {
+    grid-template-columns: 1fr;
+    grid-template-areas: "menu" "logo" "poema" "pie"; }
+  .textoMenu ul li {
+    display: block;
+    padding-top: 0.9rem; }
+  .logoAbuela-flex img {
+    width: 16rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.7rem;
+    margin-left: 0rem;
+    margin-right: 0rem; }
+  header {
+    height: 10rem;
+    background-color: rgba(0, 0, 0, 0.4); }
+  .letraChica {
+    text-align: center; }
+  .introTienda {
+    font-size: 1.3rem;
+    color: white; }
+  .logos-flex {
+    justify-content: center;
+    padding-left: 1rem; }
+  .letraChica {
+    font-size: .6rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-right: 0rem; }
+  .subTicont {
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 0rem;
+    font-size: 0.9rem; }
+  .parrafoDireccion {
+    font-size: 0.7rem;
+    padding-left: 2rem; }
+  .fotoRibeira {
+    width: 16rem;
+    align-items: center;
+    padding-right: 1rem; }
+  .fotoGuarani {
+    width: 16rem;
+    align-items: center;
+    padding-right: 2rem; }
+  .fotoAbuelos {
+    width: 16rem;
+    align-items: center;
+    padding-right: 1rem;
+    padding-bottom: 2rem; } }
+
+html {
+  font-size: 62, 5%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: "Trasandina";
+  src: url(../fonts/TrasandinaRegular.otf); }
+
+@font-face {
+  font-family: "Trasandina bold";
+  src: url(../fonts/TrasandinaBold.otf); }

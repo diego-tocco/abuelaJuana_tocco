@@ -1,0 +1,192 @@
+/* Baja a TABLET */
+
+@media screen and (max-width: 768px) {
+
+    .logos-flex {
+        justify-content: center;
+    }
+
+    .seguinos {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .subTicont {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .logoFace {
+        img {
+            padding-left: 0;
+        }
+    }
+
+    .introTienda {
+        font-size: 1.5rem;
+    }
+
+    .section01-flex {
+        flex-flow: row wrap;
+    }
+
+    .section02-flex {
+        flex-flow: row-reverse wrap;
+    }
+
+    .section03-flex {
+        flex-flow: row wrap;
+    }
+
+    .article01-flex {
+        h3 {
+            p {
+                display: flex;
+                flex-flow: row wrap;
+            }
+        }
+    }
+
+    .article02-flex {
+        h3 {
+            p {
+                display: flex;
+                flex-flow: row wrap;
+            }
+        }
+    }
+
+    .fotoRibeira {
+        width: 20rem;
+    }
+
+    .fotoGuarani {
+        width: 20rem;
+    }
+
+    .fotoAbuelos {
+        width: 20rem;
+    }
+
+    .subsBio {
+        font-size: 1.3rem;
+        padding-bottom: 0.3rem;
+    }
+
+    .logoAbuela-flex {
+        img {
+            width: 23rem;
+            padding-top: 2.3rem;
+        }
+    }
+
+    .letraChica {
+        font-size: .6rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-right: 0rem;
+    }
+
+    .subTicont {
+        text-align: center;
+        padding-top: 3rem;
+        padding-left: 0rem;
+        font-size: 0.9rem;
+    }
+
+    .parrafoDireccion {
+        font-size: 0.7rem;
+        padding-left: 0rem;
+    }
+}
+
+
+/* Baja a CELU */
+
+@media screen and (max-width: 380px) {
+
+    .bodyGrid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "menu"
+            "logo"
+            "poema"
+            "pie";
+    }
+
+    .textoMenu {
+        ul {
+            li {
+                display: block;
+                padding-top: 0.9rem;
+            }
+        }
+    }
+
+    .logoAbuela-flex {
+        img {
+            width: 16rem;
+            padding-top: 1.5rem;
+            padding-bottom: 0.7rem;
+            margin-left: 0rem;
+            margin-right: 0rem;
+        }
+    }
+
+    header {
+        height: 10rem;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .letraChica {
+        text-align: center;
+    }
+
+    .introTienda {
+        font-size: 1.3rem;
+        color: rgb(255, 255, 255);
+    }
+
+    .logos-flex {
+        justify-content: center;
+        padding-left: 1rem;
+    }
+
+    .letraChica {
+        font-size: .6rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-right: 0rem;
+    }
+
+    .subTicont {
+        text-align: center;
+        padding-top: 3rem;
+        padding-left: 0rem;
+        font-size: 0.9rem;
+    }
+
+    .parrafoDireccion {
+        font-size: 0.7rem;
+        padding-left: 2rem;
+    }
+
+    .fotoRibeira {
+        width: 16rem;
+        align-items: center;
+        padding-right: 1rem;
+    }
+
+    .fotoGuarani {
+        width: 16rem;
+        align-items: center;
+        padding-right: 2rem;
+    }
+
+    .fotoAbuelos {
+        width: 16rem;
+        align-items: center;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+    }
+}
