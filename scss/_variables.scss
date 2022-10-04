@@ -3,7 +3,17 @@ $fotosRecetas: 13rem;
 $colorJuana: rgb(64, 140, 177);
 
 
+@mixin estiloLogosredes ($fontSize, $paddTop, $paddLeft, $colorRedes2){
+    font-size: $fontSize;
+    padding-top: $paddTop;
+    padding-left: $paddLeft;
+    color: $colorRedes2;
+}
 
-
+@mixin imagenesRecetas ($ancho, $pleft, $ptop) {
+    width: $ancho;
+    padding-left: $pleft;
+    padding-top: $ptop;
+}
 
 

@@ -42,7 +42,6 @@
     font-family: Trasandina bold, sans-serif;
     font-size: 1.5rem;
     padding-left: 3rem;
-    padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -58,22 +57,15 @@
 }
 
 .fotoRibeira {
-    width: 25rem;
-    padding-left: 1rem;
-    padding-top: 2rem;
+    @extend .imagenesBio;
 }
 
 .fotoGuarani {
-    width: 25rem;
-    padding-right: 3rem;
-    padding-top: 2rem;
+    @extend .imagenesBio;
 }
 
 .fotoAbuelos {
-    width: 25rem;
-    padding-left: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 5rem;
+    @extend .imagenesBio;
 }
 
 .section01-flex {
@@ -98,4 +90,11 @@
             flex-flow: row nowrap;
         }
     }
+}
+
+.imagenesBio {
+    width: 25rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }

@@ -123,19 +123,19 @@ footer {
   font-size: 1.5rem;
   padding-top: 2rem;
   padding-left: 2rem;
-  color: #b5b5b5; }
+  color: #bcbcbc; }
 
 .logoFace i {
   font-size: 1.5rem;
   padding-top: 2rem;
-  padding-left: 2rem;
-  color: #b5b5b5; }
+  padding-left: 3rem;
+  color: #bcbcbc; }
 
 .logoInsta i {
   font-size: 1.5rem;
   padding-top: 2rem;
   padding-left: 2rem;
-  color: #b5b5b5; }
+  color: #bcbcbc; }
 
 .ordenLogos div {
   display: inline-block; }
@@ -144,7 +144,7 @@ footer {
   font-family: Trasandina, sans-serif;
   font-size: 0.8rem;
   text-align: center;
-  padding-left: 2rem;
+  padding-left: 3rem;
   padding-right: 2rem;
   padding-top: 2rem;
   color: white; }
@@ -194,7 +194,7 @@ footer {
   text-decoration: none; }
 
 .cambioColor :hover {
-  color: white;
+  color: #0c60b4;
   transition: 0.5s; }
 
 .borrarPuntito {
@@ -242,10 +242,10 @@ footer {
 
 .tituloSeccion {
   font-family: Trasandina bold, sans-serif;
-  font-size: 2.5rem;
-  color: black;
+  font-size: 2.3rem;
+  color: #1a3c5b;
   padding-left: 3rem;
-  padding-top: 3rem; }
+  padding-top: 2rem; }
 
 .tituIngrediente {
   font-family: Trasandina bold, sans sans-serif;
@@ -257,7 +257,7 @@ footer {
 
 .calamaresFoto {
   width: 13rem;
-  padding-left: 2rem;
+  padding-left: 2.5rem;
   padding-top: 3rem; }
 
 .empanadagFoto {
@@ -272,42 +272,42 @@ footer {
 
 .albondigasFoto {
   width: 13rem;
-  padding-left: 2.7rem;
+  padding-left: 2.5rem;
   padding-top: 3rem; }
 
 .manzanaFoto {
   width: 13rem;
-  padding-left: 2.7rem;
+  padding-left: 2.5rem;
   padding-top: 3rem; }
 
 .marmoladaFoto {
   width: 13rem;
-  padding-left: 2.6rem;
+  padding-left: 2.5rem;
   padding-top: 3rem; }
 
 .suspirosFoto {
   width: 13rem;
-  padding-left: 2.7rem;
+  padding-left: 2.5rem;
   padding-top: 3rem; }
 
 .chajaFoto {
   width: 13rem;
-  padding-left: 2.7rem;
+  padding-left: 2.5rem;
   padding-top: 3rem; }
 
 .sangriaFoto {
   width: 13rem;
-  padding-left: 2.7rem;
+  padding-left: 2.5rem;
   padding-top: 3rem; }
 
 .grappaFoto {
   width: 13rem;
-  padding-top: 2.5rem;
-  padding-left: 2.6rem; }
+  padding-left: 2.5rem;
+  padding-top: 3rem; }
 
 .aguaFoto {
   width: 13rem;
-  padding-left: 2.7rem;
+  padding-left: 2.5rem;
   padding-top: 3rem; }
 
 .licuadoFoto {
@@ -352,7 +352,6 @@ footer {
   font-family: Trasandina bold, sans-serif;
   font-size: 1.5rem;
   padding-left: 3rem;
-  padding-top: 2rem;
   padding-bottom: 1rem; }
 
 .textoArriba {
@@ -363,22 +362,6 @@ footer {
 
 .alineadora {
   padding-bottom: 2rem; }
-
-.fotoRibeira {
-  width: 25rem;
-  padding-left: 1rem;
-  padding-top: 2rem; }
-
-.fotoGuarani {
-  width: 25rem;
-  padding-right: 3rem;
-  padding-top: 2rem; }
-
-.fotoAbuelos {
-  width: 25rem;
-  padding-left: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 5rem; }
 
 .section01-flex {
   display: flex;
@@ -395,6 +378,12 @@ footer {
 .article01-flex h3 p {
   display: flex;
   flex-flow: row nowrap; }
+
+.imagenesBio, .fotoRibeira, .fotoGuarani, .fotoAbuelos {
+  width: 25rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem; }
 
 /* TIENDA */
 .bodyTienda {
@@ -498,6 +487,21 @@ textarea {
   bottom: 0;
   position: initial; }
 
+html {
+  font-size: 62, 5%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: "Trasandina";
+  src: url(../fonts/TrasandinaRegular.otf); }
+
+@font-face {
+  font-family: "Trasandina bold";
+  src: url(../fonts/TrasandinaBold.otf); }
+
 /* Baja a TABLET */
 @media screen and (max-width: 768px) {
   .logos-flex {
@@ -548,7 +552,9 @@ textarea {
     font-size: 0.9rem; }
   .parrafoDireccion {
     font-size: 0.7rem;
-    padding-left: 0rem; } }
+    padding-left: 3rem;
+    align-items: center;
+    text-align: center; } }
 
 /* Baja a CELU */
 @media screen and (max-width: 380px) {
@@ -559,11 +565,9 @@ textarea {
     display: block;
     padding-top: 0.9rem; }
   .logoAbuela-flex img {
-    width: 16rem;
+    width: 14rem;
     padding-top: 1.5rem;
-    padding-bottom: 0.7rem;
-    margin-left: 0rem;
-    margin-right: 0rem; }
+    padding-bottom: 0.7rem; }
   header {
     height: 10rem;
     background-color: rgba(0, 0, 0, 0.4); }
@@ -574,7 +578,7 @@ textarea {
     color: white; }
   .logos-flex {
     justify-content: center;
-    padding-left: 1rem; }
+    padding-left: 0rem; }
   .letraChica {
     font-size: .6rem;
     text-align: center;
@@ -587,32 +591,18 @@ textarea {
     font-size: 0.9rem; }
   .parrafoDireccion {
     font-size: 0.7rem;
-    padding-left: 2rem; }
+    padding-left: 0rem; }
   .fotoRibeira {
     width: 16rem;
-    align-items: center;
-    padding-right: 1rem; }
+    align-items: center; }
   .fotoGuarani {
     width: 16rem;
-    align-items: center;
-    padding-right: 2rem; }
+    align-items: center; }
   .fotoAbuelos {
     width: 16rem;
     align-items: center;
-    padding-right: 1rem;
-    padding-bottom: 2rem; } }
-
-html {
-  font-size: 62, 5%; }
-
-* {
-  margin: 0;
-  padding: 0; }
-
-@font-face {
-  font-family: "Trasandina";
-  src: url(../fonts/TrasandinaRegular.otf); }
-
-@font-face {
-  font-family: "Trasandina bold";
-  src: url(../fonts/TrasandinaBold.otf); }
+    padding-right: 1rem; }
+  .logoAlpie {
+    width: 8rem;
+    margin-left: auto;
+    margin-right: auto; } }

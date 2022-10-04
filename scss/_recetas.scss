@@ -28,7 +28,7 @@
 
 .cambioColor {
     :hover {
-        color: rgb(255, 255, 255);
+        color: rgb(12, 96, 180);
         transition: 0.5s;
     }
 }
@@ -85,10 +85,10 @@
 
 .tituloSeccion {
     font-family: Trasandina bold, sans-serif;
-    font-size: 2.5rem;
-    color: rgb(0, 0, 0);
+    font-size: 2.3rem;
+    color: rgb(26, 60, 91);
     padding-left: 3rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .tituIngrediente {
@@ -101,69 +101,47 @@
 }
 
 .calamaresFoto {
-    width: $fotosRecetas;
-    padding-left: 2rem;
-    padding-top: 3rem;
+    @include imagenesRecetas (13rem, 2.5rem, 3rem)
 }
 
 .empanadagFoto {
-    width: $fotosRecetas;
-    padding-left: 2.5rem;
-    padding-top: 3rem;
+    @include imagenesRecetas (13rem, 2.5rem, 3rem)
 }
 
 .rinionesFoto {
-    width: $fotosRecetas;
-    padding-left: 2.5rem;
-    padding-top: 3rem;
+    @include imagenesRecetas (13rem, 2.5rem, 3rem)
 }
 
 .albondigasFoto {
-    width: $fotosRecetas;
-    padding-left: 2.7rem;
-    padding-top: 3rem;
+    @include imagenesRecetas (13rem, 2.5rem, 3rem)
 }
 
 .manzanaFoto {
-    width: $fotosRecetas;
-    padding-left: 2.7rem;
-    padding-top: 3rem;
+    @include imagenesRecetas (13rem, 2.5rem, 3rem)
 }
 
 .marmoladaFoto {
-    width: $fotosRecetas;
-    padding-left: 2.6rem;
-    padding-top: 3rem;
+    @include imagenesRecetas (13rem, 2.5rem, 3rem)
 }
 
 .suspirosFoto {
-    width: $fotosRecetas;
-    padding-left: 2.7rem;
-    padding-top: 3rem;
+    @include imagenesRecetas (13rem, 2.5rem, 3rem)
 }
 
 .chajaFoto {
-    width: $fotosRecetas;
-    padding-left: 2.7rem;
-    padding-top: 3rem;
+    @include imagenesRecetas (13rem, 2.5rem, 3rem)
 }
 
 .sangriaFoto {
-    width: $fotosRecetas;
-    padding-left: 2.7rem;
-    padding-top: 3rem;
+    @include imagenesRecetas (13rem, 2.5rem, 3rem)
 }
 
 .grappaFoto {
-    width: $fotosRecetas;
-    padding-top: 2.5rem;
-    padding-left: 2.6rem;
+    @include imagenesRecetas (13rem, 2.5rem, 3rem)
 }
 
 .aguaFoto {
-    width: $fotosRecetas;
-    padding-left: 2.7rem;
-    padding-top: 3rem;
+    @include imagenesRecetas (13rem, 2.5rem, 3rem)
 }
 
 .licuadoFoto {
