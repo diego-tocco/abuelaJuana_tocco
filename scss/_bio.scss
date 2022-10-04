@@ -11,14 +11,6 @@
     background-size: cover;
 }
 
-.tituloBio {
-    font-family: Trasandina bold, sans-serif;
-    color: white;
-    font-size: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    text-align: center;
-}
 
 .textoBio {
     font-family: Trasandina, sans-serif;
@@ -26,6 +18,15 @@
     text-align: left;
     padding-left: 3rem;
     padding-right: 3rem;
+}
+
+.tituloBio {
+    font-family: map-get($estiloTitulo1, fuente);
+    color: map-get($estiloTitulo1, color);
+    font-size: map-get($estiloTitulo1, size);
+    padding-top: map-get($estiloTitulo1, p-top);
+    padding-bottom: map-get($estiloTitulo1, p-bottom);
+    text-align: map-get($estiloTitulo1, align);
 }
 
 .textoBiofinal {
@@ -92,7 +93,7 @@
     }
 }
 
-.imagenesBio {
+.imagenesBio{
     width: 25rem;
     padding-top: 2rem;
     padding-left: 2rem;

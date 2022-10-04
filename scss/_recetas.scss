@@ -145,7 +145,5 @@
 }
 
 .licuadoFoto {
-    width: $fotosRecetas;
-    padding-top: 3rem;
-    padding-left: 2.7rem;
+    @include imagenesRecetas (13rem, 2.5rem, 3rem)
 }
