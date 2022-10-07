@@ -100,50 +100,7 @@
     padding-top: 1rem;
 }
 
-.calamaresFoto {
-    @include imagenesRecetas (13rem, 2.5rem, 3rem)
-}
-
-.empanadagFoto {
-    @include imagenesRecetas (13rem, 2.5rem, 3rem)
-}
-
-.rinionesFoto {
-    @include imagenesRecetas (13rem, 2.5rem, 3rem)
-}
-
-.albondigasFoto {
-    @include imagenesRecetas (13rem, 2.5rem, 3rem)
-}
-
-.manzanaFoto {
-    @include imagenesRecetas (13rem, 2.5rem, 3rem)
-}
-
-.marmoladaFoto {
-    @include imagenesRecetas (13rem, 2.5rem, 3rem)
-}
-
-.suspirosFoto {
-    @include imagenesRecetas (13rem, 2.5rem, 3rem)
-}
-
-.chajaFoto {
-    @include imagenesRecetas (13rem, 2.5rem, 3rem)
-}
-
-.sangriaFoto {
-    @include imagenesRecetas (13rem, 2.5rem, 3rem)
-}
-
-.grappaFoto {
-    @include imagenesRecetas (13rem, 2.5rem, 3rem)
-}
-
-.aguaFoto {
-    @include imagenesRecetas (13rem, 2.5rem, 3rem)
-}
-
-.licuadoFoto {
+.calamaresFoto, .empanadagFoto, .rinionesFoto, .albondigasFoto, .manzanaFoto,
+.marmoladaFoto, .suspirosFoto, .chajaFoto, .sangriaFoto, .grappaFoto, .aguaFoto, .licuadoFoto {
     @include imagenesRecetas (13rem, 2.5rem, 3rem)
 }

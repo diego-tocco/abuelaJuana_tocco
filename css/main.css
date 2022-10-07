@@ -119,19 +119,7 @@ footer {
   font-size: 0.9rem;
   font-family: Trasandina, sans-serif; }
 
-.logoYoutube i {
-  font-size: 1.5rem;
-  padding-top: 2rem;
-  padding-left: 2rem;
-  color: #bcbcbc; }
-
-.logoFace i {
-  font-size: 1.5rem;
-  padding-top: 2rem;
-  padding-left: 3rem;
-  color: #bcbcbc; }
-
-.logoInsta i {
+.logoYoutube i, .logoInsta i, .logoFace i {
   font-size: 1.5rem;
   padding-top: 2rem;
   padding-left: 2rem;
@@ -255,62 +243,8 @@ footer {
   padding-bottom: 0.6rem;
   padding-top: 1rem; }
 
-.calamaresFoto {
-  width: 13rem;
-  padding-left: 2.5rem;
-  padding-top: 3rem; }
-
-.empanadagFoto {
-  width: 13rem;
-  padding-left: 2.5rem;
-  padding-top: 3rem; }
-
-.rinionesFoto {
-  width: 13rem;
-  padding-left: 2.5rem;
-  padding-top: 3rem; }
-
-.albondigasFoto {
-  width: 13rem;
-  padding-left: 2.5rem;
-  padding-top: 3rem; }
-
-.manzanaFoto {
-  width: 13rem;
-  padding-left: 2.5rem;
-  padding-top: 3rem; }
-
-.marmoladaFoto {
-  width: 13rem;
-  padding-left: 2.5rem;
-  padding-top: 3rem; }
-
-.suspirosFoto {
-  width: 13rem;
-  padding-left: 2.5rem;
-  padding-top: 3rem; }
-
-.chajaFoto {
-  width: 13rem;
-  padding-left: 2.5rem;
-  padding-top: 3rem; }
-
-.sangriaFoto {
-  width: 13rem;
-  padding-left: 2.5rem;
-  padding-top: 3rem; }
-
-.grappaFoto {
-  width: 13rem;
-  padding-left: 2.5rem;
-  padding-top: 3rem; }
-
-.aguaFoto {
-  width: 13rem;
-  padding-left: 2.5rem;
-  padding-top: 3rem; }
-
-.licuadoFoto {
+.calamaresFoto, .empanadagFoto, .rinionesFoto, .albondigasFoto, .manzanaFoto,
+.marmoladaFoto, .suspirosFoto, .chajaFoto, .sangriaFoto, .grappaFoto, .aguaFoto, .licuadoFoto {
   width: 13rem;
   padding-left: 2.5rem;
   padding-top: 3rem; }
@@ -465,8 +399,8 @@ footer {
 .mainContacto {
   background-color: rgba(116, 116, 116, 0.5);
   background-size: cover;
-  padding-bottom: 5rem;
-  margin-top: 3rem;
+  padding-bottom: 4rem;
+  padding-top: 1.5rem;
   margin-bottom: 3rem; }
 
 .subsContacto {
@@ -605,4 +539,7 @@ html {
   .logoAlpie {
     width: 8rem;
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto; }
+  textarea {
+    width: 80%;
+    height: 10rem; } }
