@@ -40,21 +40,20 @@
 
 .mainTienda {
     background-color: rgba(228, 97, 9, 0.6);
-    margin-bottom: 3rem;
     padding-bottom: 0rem;
     grid-area: texto;
 }
 
 .introTienda {
     font-family: Trasandina bold, sans-serif;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: rgb(255, 213, 0);
     text-align: center;
     margin: auto;
     padding-bottom: 2rem;
 }
 
-.textosListas li a {
+.textosListas {
     li {
         a {
             font-family: Trasandina bold, sans-serif;
@@ -65,6 +64,12 @@
         }
     }
 
+}
+.cambioColor2 {
+    :hover {
+        color: rgb(255, 222, 75);
+        transition: 0.5s;
+    }
 }
 
 .centradoListas {

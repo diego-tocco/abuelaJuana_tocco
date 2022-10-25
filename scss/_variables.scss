@@ -1,13 +1,13 @@
-$colorRedes:#b5b5b5;
+$colorRedes: rgb(188, 188, 188);
 $fotosRecetas: 13rem;
 $colorJuana: rgb(64, 140, 177);
 
 
-@mixin estiloLogosredes ($fontSize, $paddTop, $paddLeft, $colorRedes2){
+@mixin estiloLogosredes ($fontSize, $paddTop, $paddLeft, $colorRedes){
     font-size: $fontSize;
     padding-top: $paddTop;
     padding-left: $paddLeft;
-    color: $colorRedes2;
+    color: $colorRedes;
 }
 
 @mixin imagenesRecetas ($ancho, $pleft, $ptop) {

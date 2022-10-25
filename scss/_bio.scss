@@ -44,10 +44,12 @@
     font-size: 1.5rem;
     padding-left: 3rem;
     padding-bottom: 1rem;
+    padding-top: 3rem;
 }
 
 .textoArriba {
     color: white;
+    font-size: 0.9rem;
     font-family: Trasandina bold;
     text-decoration: none;
     padding-left: 3rem;
@@ -57,15 +59,7 @@
     padding-bottom: 2rem;
 }
 
-.fotoRibeira {
-    @extend .imagenesBio;
-}
-
-.fotoGuarani {
-    @extend .imagenesBio;
-}
-
-.fotoAbuelos {
+.fotoRibeira, .fotoGuarani, .fotoAbuelos {
     @extend .imagenesBio;
 }
 

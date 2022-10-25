@@ -20,7 +20,6 @@
   grid-area: pie; }
 
 .bodyIndex {
-  /*background-color:rgb(64, 140, 177);*/
   background-image: url(../multimedia/ptoribeirareticolor.png);
   background-size: cover; }
 
@@ -52,37 +51,18 @@ header {
   background-color: rgba(64, 140, 177, 0.5);
   background-size: cover; }
 
-@keyframes mainOpaco {
-  0% {
-    opacity: 100%;
-    transform: rotate(0deg); }
-  25% {
-    opacity: 75%;
-    transform: rotate(-0.7deg); }
-  50% {
-    opacity: 50%;
-    transform: rotate(0deg); }
-  75% {
-    opacity: 75%;
-    transform: rotate(0.7deg); }
-  100% {
-    opacity: 100%;
-    transform: rotate(0deg); } }
+.tituloIndex {
+  font-family: Trasandina bold, sans-serif;
+  color: #ffd024;
+  font-size: 3rem;
+  padding-top: 3rem;
+  text-align: center; }
 
-.fondoAnimado {
-  animation-name: mainOpaco;
-  animation-duration: 11s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; }
-
-.logoAbuela-flex img {
-  display: flex;
-  flex-flow: row nowrap;
-  width: 27rem;
-  padding-top: 2.5rem;
-  padding-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto; }
+.tituloIndex2 {
+  font-family: Trasandina bold, sans-serif;
+  color: white;
+  font-size: 2rem;
+  text-align: center; }
 
 .textoPoema {
   font-family: Trasandina bold, sans-serif;
@@ -102,7 +82,7 @@ header {
   font-size: 0.8rem;
   color: white;
   text-align: center;
-  padding-bottom: 2rem; }
+  padding-bottom: 1rem; }
 
 .menuTop {
   text-decoration: none; }
@@ -111,19 +91,26 @@ footer {
   background-color: rgba(0, 0, 0, 0.7); }
   footer a {
     text-decoration: none;
-    color: #f8bc16; }
+    color: #bcbcbc; }
 
 .subTicont {
-  padding-left: 3rem;
-  padding-top: 5rem;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  text-align: center;
   font-size: 0.9rem;
   font-family: Trasandina, sans-serif; }
 
-.logoYoutube i, .logoInsta i, .logoFace i {
+.logoYoutube i,
+.logoInsta i {
   font-size: 1.5rem;
   padding-top: 2rem;
   padding-left: 2rem;
   color: #bcbcbc; }
+
+.logoFace {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  padding-left: 0rem; }
 
 .ordenLogos div {
   display: inline-block; }
@@ -132,34 +119,43 @@ footer {
   font-family: Trasandina, sans-serif;
   font-size: 0.8rem;
   text-align: center;
-  padding-left: 3rem;
-  padding-right: 2rem;
   padding-top: 2rem;
-  color: white; }
+  color: white;
+  padding-left: 3rem;
+  padding-right: 3rem; }
+
+.parrafoDireccion2 {
+  font-family: Trasandina, sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  padding-top: 1rem;
+  color: #f4c731;
+  padding-left: 3rem;
+  padding-right: 3rem; }
 
 .letraChica {
-  color: #b5b5b5;
+  color: #bcbcbc;
   font-family: Trasandina, sans-serif;
   font-size: .8rem;
-  text-align: right;
-  padding-right: 3rem;
+  text-align: center;
   padding-bottom: 3rem; }
-
-.logos-flex {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  padding-left: 3rem; }
 
 .flexChico {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  padding-right: 3rem; }
+  flex-flow: row nowrap;
+  justify-content: center; }
 
-.logoAlpie {
+.flexChico2 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center; }
+
+.logoAlpie-flex {
+  display: flex;
   width: 10rem;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto; }
 
 /* RECETAS */
 .tituloHuno {
@@ -182,7 +178,7 @@ footer {
   text-decoration: none; }
 
 .cambioColor :hover {
-  color: #0c60b4;
+  color: #ffde4b;
   transition: 0.5s; }
 
 .borrarPuntito {
@@ -194,16 +190,18 @@ footer {
 .irArriba {
   font-family: Trasandina bold, sans-serif;
   font-size: 0.9rem;
-  color: #d0d0cf;
+  color: #fa7d1d;
   margin-top: 3rem;
   padding-left: 3rem;
   text-decoration: none; }
 
+.alineadora {
+  padding-bottom: 2rem; }
+
 .mainRecetas {
   background-color: rgba(64, 140, 177, 0.6);
   background-size: cover;
-  margin-top: 2rem;
-  margin-bottom: 3rem; }
+  margin-top: 2rem; }
 
 .textoIngredientes {
   font-family: Trasandina bold, sans-serif;
@@ -243,11 +241,25 @@ footer {
   padding-bottom: 0.6rem;
   padding-top: 1rem; }
 
-.calamaresFoto, .empanadagFoto, .rinionesFoto, .albondigasFoto, .manzanaFoto,
-.marmoladaFoto, .suspirosFoto, .chajaFoto, .sangriaFoto, .grappaFoto, .aguaFoto, .licuadoFoto {
+.calamaresFoto,
+.empanadagFoto,
+.rinionesFoto,
+.albondigasFoto,
+.manzanaFoto,
+.marmoladaFoto,
+.suspirosFoto,
+.chajaFoto,
+.sangriaFoto,
+.grappaFoto,
+.aguaFoto,
+.licuadoFoto {
   width: 13rem;
   padding-left: 2.5rem;
-  padding-top: 3rem; }
+  padding-top: 2rem; }
+
+.recetaFlex {
+  display: flex;
+  flex-flow: row nowrap; }
 
 /* BIO */
 .bodyBio {
@@ -286,10 +298,12 @@ footer {
   font-family: Trasandina bold, sans-serif;
   font-size: 1.5rem;
   padding-left: 3rem;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+  padding-top: 3rem; }
 
 .textoArriba {
   color: white;
+  font-size: 0.9rem;
   font-family: Trasandina bold;
   text-decoration: none;
   padding-left: 3rem; }
@@ -350,24 +364,27 @@ footer {
 
 .mainTienda {
   background-color: rgba(228, 97, 9, 0.6);
-  margin-bottom: 3rem;
   padding-bottom: 0rem;
   grid-area: texto; }
 
 .introTienda {
   font-family: Trasandina bold, sans-serif;
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #ffd500;
   text-align: center;
   margin: auto;
   padding-bottom: 2rem; }
 
-.textosListas li a li a {
+.textosListas li a {
   font-family: Trasandina bold, sans-serif;
   font-size: 1.3rem;
   color: black;
   list-style-type: none;
   text-decoration: none; }
+
+.cambioColor2 :hover {
+  color: #ffde4b;
+  transition: 0.5s; }
 
 .centradoListas {
   text-align: center; }
@@ -438,15 +455,11 @@ html {
 
 /* Baja a TABLET */
 @media screen and (max-width: 768px) {
-  .logos-flex {
-    justify-content: center; }
   .seguinos {
     text-align: center;
     padding-left: 0; }
   .subTicont {
     text-align: center;
-    padding-left: 0; }
-  .logoFace img {
     padding-left: 0; }
   .introTienda {
     font-size: 1.5rem; }
@@ -486,7 +499,8 @@ html {
     font-size: 0.9rem; }
   .parrafoDireccion {
     font-size: 0.7rem;
-    padding-left: 3rem;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     text-align: center; } }
 
@@ -510,9 +524,6 @@ html {
   .introTienda {
     font-size: 1.3rem;
     color: white; }
-  .logos-flex {
-    justify-content: center;
-    padding-left: 0rem; }
   .letraChica {
     font-size: .6rem;
     text-align: center;
@@ -521,25 +532,48 @@ html {
   .subTicont {
     text-align: center;
     padding-top: 3rem;
-    padding-left: 0rem;
     font-size: 0.9rem; }
   .parrafoDireccion {
-    font-size: 0.7rem;
-    padding-left: 0rem; }
+    font-size: 0.7rem; }
   .fotoRibeira {
     width: 16rem;
-    align-items: center; }
+    align-self: center; }
   .fotoGuarani {
     width: 16rem;
-    align-items: center; }
+    align-self: center; }
   .fotoAbuelos {
     width: 16rem;
-    align-items: center;
-    padding-right: 1rem; }
+    align-self: center; }
   .logoAlpie {
     width: 8rem;
     margin-left: auto;
     margin-right: auto; }
   textarea {
     width: 80%;
-    height: 10rem; } }
+    height: 10rem; }
+  .recetaFlex {
+    flex-flow: row wrap; }
+  .parrafoDireccion {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.4rem; }
+  .flexChico {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .logoFace {
+    padding-left: 0rem; }
+  .logos-flex {
+    flex-flow: column wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0rem; }
+  .tituloIndex {
+    font-size: 2.5rem; }
+  .tituloIndex2 {
+    font-size: 1.8rem; } }

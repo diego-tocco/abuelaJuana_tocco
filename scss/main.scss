@@ -30,10 +30,6 @@ html {
 
 @media screen and (max-width: 768px) {
 
-    .logos-flex {
-        justify-content: center;
-    }
-
     .seguinos {
         text-align: center;
         padding-left: 0;
@@ -42,12 +38,6 @@ html {
     .subTicont {
         text-align: center;
         padding-left: 0;
-    }
-
-    .logoFace {
-        img {
-            padding-left: 0;
-        }
     }
 
     .introTienda {
@@ -124,7 +114,8 @@ html {
 
     .parrafoDireccion {
         font-size: 0.7rem;
-        padding-left: 3rem;
+        margin-left: auto;
+        margin-right: auto;
         align-items: center;
         text-align: center;
     }
@@ -175,11 +166,6 @@ html {
         color: rgb(255, 255, 255);
     }
 
-    .logos-flex {
-        justify-content: center;
-        padding-left: 0rem;
-    }
-
     .letraChica {
         font-size: .6rem;
         text-align: center;
@@ -190,31 +176,28 @@ html {
     .subTicont {
         text-align: center;
         padding-top: 3rem;
-        padding-left: 0rem;
         font-size: 0.9rem;
     }
 
     .parrafoDireccion {
         font-size: 0.7rem;
-        padding-left: 0rem;
     }
 
     .fotoRibeira {
         width: 16rem;
-        align-items: center;
+        align-self: center;
     }
 
     .fotoGuarani {
         width: 16rem;
-        align-items: center;
+        align-self: center;
     }
 
     .fotoAbuelos {
         width: 16rem;
-        align-items: center;
-        padding-right: 1rem;
-
+        align-self: center;
     }
+
     .logoAlpie {
         width: 8rem;
         margin-left: auto;
@@ -223,9 +206,48 @@ html {
 
     textarea {
         width: 80%;
-        height:10rem;
+        height: 10rem;
     }
+
+    .recetaFlex {
+        flex-flow: row wrap;
+    }
+
+    .parrafoDireccion {
+        font-size: 0.8rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1.4rem;
+    }
+
+    .flexChico {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logoFace {
+        padding-left: 0rem;
+    }
+
+    .logos-flex {
+        flex-flow: column wrap;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0rem;
+    }
+
+    .tituloIndex {
+        font-size: 2.5rem;
+    }
+
+    .tituloIndex2 {
+        font-size: 1.8rem;
+    }
+   
+
 }
-
-
-

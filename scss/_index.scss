@@ -30,7 +30,6 @@
 }
 
 .bodyIndex {
-    /*background-color:rgb(64, 140, 177);*/
     background-image: url(../multimedia/ptoribeirareticolor.png);
     background-size: cover;
 }
@@ -62,7 +61,7 @@ header {
 
 .cambiaAblanco {
     :hover {
-        color: white;
+        color: rgb(255, 255, 255);
         transition: 0.5s;
     }
 }
@@ -77,51 +76,19 @@ header {
     background-size: cover;
 }
 
-@keyframes mainOpaco {
-    0% {
-        opacity: 100%;
-        transform: rotate(0deg);
-    }
-
-    25% {
-        opacity: 75%;
-        transform: rotate(-0.7deg);
-    }
-
-    50% {
-        opacity: 50%;
-        transform: rotate(0deg);
-    }
-
-    75% {
-        opacity: 75%;
-        transform: rotate(0.7deg);
-    }
-
-    100% {
-        opacity: 100%;
-        transform: rotate(0deg);
-    }
+.tituloIndex {
+    font-family: Trasandina bold, sans-serif;
+    color: rgb(255, 208, 36);
+    font-size: 3rem;
+    padding-top: 3rem;
+    text-align: center;
 }
 
-
-.fondoAnimado {
-    animation-name: mainOpaco;
-    animation-duration: 11s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.logoAbuela-flex {
-    img {
-        display: flex;
-        flex-flow: row nowrap;
-        width: 27rem;
-        padding-top: 2.5rem;
-        padding-bottom: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.tituloIndex2 {
+    font-family: Trasandina bold, sans-serif;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .textoPoema {
@@ -144,7 +111,7 @@ header {
     font-size: 0.8rem;
     color: white;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .menuTop {
@@ -156,23 +123,31 @@ footer {
 
     a {
         text-decoration: none;
-        color: rgb(248, 188, 22);
+        color: rgb(188, 188, 188);
     }
 }
 
 .subTicont {
-    padding-left: 3rem;
-    padding-top: 5rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    text-align: center;
     font-size: 0.9rem;
     font-family: Trasandina, sans-serif;
 }
 
-.logoYoutube, .logoInsta, .logoFace {
+
+.logoYoutube,
+.logoInsta {
     i {
-        @include estiloLogosredes(1.5rem, 2rem, 2rem,rgb(188, 188, 188))
+        @include estiloLogosredes(1.5rem, 2rem, 2rem, rgb(188, 188, 188))
     }
 }
 
+.logoFace {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-left: 0rem;
+}
 
 .ordenLogos {
     div {
@@ -184,37 +159,48 @@ footer {
     font-family: Trasandina, sans-serif;
     font-size: 0.8rem;
     text-align: center;
-    padding-left: 3rem;
-    padding-right: 2rem;
     padding-top: 2rem;
     color: rgb(255, 255, 255);
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.parrafoDireccion2 {
+    font-family: Trasandina, sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 1rem;
+    color: rgb(244, 199, 49);
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .letraChica {
     color: $colorRedes;
     font-family: Trasandina, sans-serif;
     font-size: .8rem;
-    text-align: right;
-    padding-right: 3rem;
+    text-align: center;
     padding-bottom: 3rem;
 }
 
-.logos-flex {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    padding-left: 3rem;
-}
 
 .flexChico {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    padding-right: 3rem;
+    flex-flow: row nowrap;
+    justify-content: center;
+
 }
 
-.logoAlpie {
+.flexChico2 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+}
+
+.logoAlpie-flex {
+    display: flex;
     width: 10rem;
     padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
-
