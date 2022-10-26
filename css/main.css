@@ -54,14 +54,14 @@ header {
 .tituloIndex {
   font-family: Trasandina bold, sans-serif;
   color: #ffd024;
-  font-size: 3rem;
+  font-size: 3.5rem;
   padding-top: 3rem;
   text-align: center; }
 
 .tituloIndex2 {
-  font-family: Trasandina bold, sans-serif;
+  font-family: Trasandina, sans-serif;
   color: white;
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: center; }
 
 .textoPoema {
@@ -121,8 +121,8 @@ footer {
   text-align: center;
   padding-top: 2rem;
   color: white;
-  padding-left: 3rem;
-  padding-right: 3rem; }
+  padding-left: 7rem;
+  padding-right: 7rem; }
 
 .parrafoDireccion2 {
   font-family: Trasandina, sans-serif;
@@ -130,8 +130,8 @@ footer {
   text-align: center;
   padding-top: 1rem;
   color: #f4c731;
-  padding-left: 3rem;
-  padding-right: 3rem; }
+  padding-left: 7rem;
+  padding-right: 7rem; }
 
 .letraChica {
   color: #bcbcbc;
@@ -438,21 +438,6 @@ textarea {
   bottom: 0;
   position: initial; }
 
-html {
-  font-size: 62, 5%; }
-
-* {
-  margin: 0;
-  padding: 0; }
-
-@font-face {
-  font-family: "Trasandina";
-  src: url(../fonts/TrasandinaRegular.otf); }
-
-@font-face {
-  font-family: "Trasandina bold";
-  src: url(../fonts/TrasandinaBold.otf); }
-
 /* Baja a TABLET */
 @media screen and (max-width: 768px) {
   .seguinos {
@@ -484,9 +469,6 @@ html {
   .subsBio {
     font-size: 1.3rem;
     padding-bottom: 0.3rem; }
-  .logoAbuela-flex img {
-    width: 23rem;
-    padding-top: 2.3rem; }
   .letraChica {
     font-size: .6rem;
     text-align: center;
@@ -499,10 +481,14 @@ html {
     font-size: 0.9rem; }
   .parrafoDireccion {
     font-size: 0.7rem;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    text-align: center; } }
+    padding-left: 4rem;
+    padding-right: 4rem;
+    align-items: center; }
+  .parrafoDireccion2 {
+    font-size: 0.7rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    align-items: center; } }
 
 /* Baja a CELU */
 @media screen and (max-width: 380px) {
@@ -512,18 +498,13 @@ html {
   .textoMenu ul li {
     display: block;
     padding-top: 0.9rem; }
-  .logoAbuela-flex img {
-    width: 14rem;
-    padding-top: 1.5rem;
-    padding-bottom: 0.7rem; }
   header {
     height: 10rem;
     background-color: rgba(0, 0, 0, 0.4); }
   .letraChica {
     text-align: center; }
   .introTienda {
-    font-size: 1.3rem;
-    color: white; }
+    font-size: 1.3rem; }
   .letraChica {
     font-size: .6rem;
     text-align: center;
@@ -533,8 +514,6 @@ html {
     text-align: center;
     padding-top: 3rem;
     font-size: 0.9rem; }
-  .parrafoDireccion {
-    font-size: 0.7rem; }
   .fotoRibeira {
     width: 16rem;
     align-self: center; }
@@ -554,13 +533,12 @@ html {
   .recetaFlex {
     flex-flow: row wrap; }
   .parrafoDireccion {
-    font-size: 0.8rem;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1.4rem; }
+  .parrafoDireccion {
+    padding-left: 2rem;
+    padding-right: 2rem; }
   .flexChico {
     justify-content: center;
     margin-left: auto;
@@ -576,4 +554,24 @@ html {
   .tituloIndex {
     font-size: 2.5rem; }
   .tituloIndex2 {
-    font-size: 1.8rem; } }
+    font-size: 1.8rem; }
+  .tituloIndex {
+    font-size: 2.5rem;
+    padding-top: 2rem; }
+  .tituloIndex2 {
+    font-size: 1.4rem; } }
+
+html {
+  font-size: 62, 5%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: "Trasandina";
+  src: url(../fonts/TrasandinaRegular.otf); }
+
+@font-face {
+  font-family: "Trasandina bold";
+  src: url(../fonts/TrasandinaBold.otf); }

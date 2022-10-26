@@ -1,0 +1,220 @@
+/* Baja a TABLET */
+
+@media screen and (max-width: 768px) {
+
+    .seguinos {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .subTicont {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .introTienda {
+        font-size: 1.5rem;
+    }
+
+    .section01-flex {
+        flex-flow: row wrap;
+    }
+
+    .section02-flex {
+        flex-flow: row-reverse wrap;
+    }
+
+    .section03-flex {
+        flex-flow: row wrap;
+    }
+
+    .article01-flex {
+        h3 {
+            p {
+                display: flex;
+                flex-flow: row wrap;
+            }
+        }
+    }
+
+    .article02-flex {
+        h3 {
+            p {
+                display: flex;
+                flex-flow: row wrap;
+            }
+        }
+    }
+
+    .fotoRibeira {
+        width: 20rem;
+    }
+
+    .fotoGuarani {
+        width: 20rem;
+    }
+
+    .fotoAbuelos {
+        width: 20rem;
+    }
+
+    .subsBio {
+        font-size: 1.3rem;
+        padding-bottom: 0.3rem;
+    }
+
+    .letraChica {
+        font-size: .6rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-right: 0rem;
+    }
+
+    .subTicont {
+        text-align: center;
+        padding-top: 3rem;
+        padding-left: 0rem;
+        font-size: 0.9rem;
+    }
+
+    .parrafoDireccion {
+        font-size: 0.7rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        align-items: center;
+    }
+
+    .parrafoDireccion2 {
+        font-size: 0.7rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        align-items: center;
+    }
+}
+
+
+/* Baja a CELU */
+
+@media screen and (max-width: 380px) {
+
+    .bodyGrid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "menu"
+            "logo"
+            "poema"
+            "pie";
+    }
+
+    .textoMenu {
+        ul {
+            li {
+                display: block;
+                padding-top: 0.9rem;
+            }
+        }
+    }
+
+    header {
+        height: 10rem;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .letraChica {
+        text-align: center;
+    }
+
+    .introTienda {
+        font-size: 1.3rem;
+    }
+
+    .letraChica {
+        font-size: .6rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-right: 0rem;
+    }
+
+    .subTicont {
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 0.9rem;
+    }
+
+    .fotoRibeira {
+        width: 16rem;
+        align-self: center;
+    }
+
+    .fotoGuarani {
+        width: 16rem;
+        align-self: center;
+    }
+
+    .fotoAbuelos {
+        width: 16rem;
+        align-self: center;
+    }
+
+    .logoAlpie {
+        width: 8rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    textarea {
+        width: 80%;
+        height: 10rem;
+    }
+
+    .recetaFlex {
+        flex-flow: row wrap;
+    }
+
+    .parrafoDireccion {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1.4rem;
+    }
+
+    .parrafoDireccion {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .flexChico {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logoFace {
+        padding-left: 0rem;
+    }
+
+    .logos-flex {
+        flex-flow: column wrap;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0rem;
+    }
+
+    .tituloIndex {
+        font-size: 2.5rem;
+    }
+
+    .tituloIndex2 {
+        font-size: 1.8rem;
+    }
+
+    .tituloIndex {
+        font-size: 2.5rem;
+        padding-top: 2rem;
+    }
+
+    .tituloIndex2 {
+        font-size: 1.4rem;
+    }
+
+}
