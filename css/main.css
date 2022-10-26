@@ -491,7 +491,7 @@ textarea {
     align-items: center; } }
 
 /* Baja a CELU */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
   .bodyGrid {
     grid-template-columns: 1fr;
     grid-template-areas: "menu" "logo" "poema" "pie"; }
