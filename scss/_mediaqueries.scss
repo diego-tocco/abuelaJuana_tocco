@@ -1,5 +1,3 @@
-/* Baja a TABLET */
-
 @media screen and (max-width: 768px) {
 
     .seguinos {
@@ -93,9 +91,7 @@
 }
 
 
-/* Baja a CELU */
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 
     .bodyGrid {
         grid-template-columns: 1fr;
@@ -201,20 +197,17 @@
     }
 
     .tituloIndex {
-        font-size: 2.5rem;
-    }
-
-    .tituloIndex2 {
-        font-size: 1.8rem;
-    }
-
-    .tituloIndex {
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         padding-top: 2rem;
     }
 
     .tituloIndex2 {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
+        padding-bottom: 2rem;
+    }
+    .tituloSeccion {
+        font-size: 2rem;
+        padding-right: 2rem;
     }
 
 }

@@ -61,7 +61,7 @@ header {
 .tituloIndex2 {
   font-family: Trasandina, sans-serif;
   color: white;
-  font-size: 1.7rem;
+  font-size: 2rem;
   text-align: center; }
 
 .textoPoema {
@@ -438,7 +438,6 @@ textarea {
   bottom: 0;
   position: initial; }
 
-/* Baja a TABLET */
 @media screen and (max-width: 768px) {
   .seguinos {
     text-align: center;
@@ -490,8 +489,7 @@ textarea {
     padding-right: 4rem;
     align-items: center; } }
 
-/* Baja a CELU */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .bodyGrid {
     grid-template-columns: 1fr;
     grid-template-areas: "menu" "logo" "poema" "pie"; }
@@ -552,14 +550,14 @@ textarea {
     margin-right: auto;
     padding: 0rem; }
   .tituloIndex {
-    font-size: 2.5rem; }
-  .tituloIndex2 {
-    font-size: 1.8rem; }
-  .tituloIndex {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     padding-top: 2rem; }
   .tituloIndex2 {
-    font-size: 1.4rem; } }
+    font-size: 1.8rem;
+    padding-bottom: 2rem; }
+  .tituloSeccion {
+    font-size: 2rem;
+    padding-right: 2rem; } }
 
 html {
   font-size: 62, 5%; }
